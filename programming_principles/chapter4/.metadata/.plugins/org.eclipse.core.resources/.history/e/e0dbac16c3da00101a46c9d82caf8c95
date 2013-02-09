@@ -1,0 +1,18 @@
+/*
+ * Badarea.cpp
+ *
+ *  Created on: 9 Sep 2011
+ *      Author: robin
+ */
+
+#include "Badarea.h"
+
+Bad_area::Bad_area() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Bad_area::~Bad_area() {
+	// TODO Auto-generated destructor stub
+}
+

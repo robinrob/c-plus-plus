@@ -1,0 +1,14 @@
+/* String concatenation & comparison. */
+
+#include "../../std_lib_facilities.h"
+
+int main()
+{
+	cout << "Enter your first and second names:\n";
+	string first_name, second_name;
+	cin >> first_name;
+	cin >> second_name;
+	string name = first_name + second_name;
+	cout << "Hello " << name << "!\n";
+	return 0;
+}

@@ -1,0 +1,27 @@
+
+**** Build of configuration Debug for project read_temp2 ****
+
+make all 
+Building file: ../read_temp2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"read_temp2.d" -MT"read_temp2.d" -o "read_temp2.o" "../read_temp2.cpp"
+In file included from /usr/include/c++/4.5/ext/hash_map:60:0,
+                 from ../../../std_lib_facilities.h:34,
+                 from ../read_temp2.cpp:3:
+/usr/include/c++/4.5/backward/backward_warning.h:28:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated.
+Finished building: ../read_temp2.cpp
+ 
+Building target: read_temp2
+Invoking: Cross G++ Linker
+g++  -o "read_temp2"  ./read_temp2.o   
+Finished building target: read_temp2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project read_temp2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****

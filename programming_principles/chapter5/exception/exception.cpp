@@ -1,0 +1,33 @@
+/* Catching a Range_error exception. */
+
+#include "../../std_lib_facilities.h"
+
+int main()
+{
+	try {
+		vector<int> v;
+		int i;
+		while (cin >> i) v.push_back(i);
+		for (int i = 0; i <= v.size(); ++i)
+			cout << "v[" << i << "]: " << v[i] << endl;
+		return 0;			//0 indicates success
+	}
+	catch (out_of_range& e) { //& means "pass the exception by reference.
+		/* cerr is same as cout but cerr not optimised for resilience
+		 * to errors and can also output to a file instead.
+		 */
+		cerr << "Oops! Range error: " << e.what() << endl;
+		return 1;
+	}
+	catch (exception& e) {	 	//a broad class of exceptions
+		cerr << "Other exception:  " << e.what() << endl;
+		return 2;			//error code for this exception type
+	}
+	catch (...) {		//catches all other exceptions
+		cerr << "Unknown exception!" << endl;
+		return 3;			//error code for this exception type
+	}
+	return 0;
+}
+
+

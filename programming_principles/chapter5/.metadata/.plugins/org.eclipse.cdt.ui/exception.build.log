@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project exception ****
+
+make all 
+Building file: ../exception.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exception.d" -MT"exception.d" -o "exception.o" "../exception.cpp"
+In file included from /usr/include/c++/4.5/ext/hash_map:60:0,
+                 from ../../../std_lib_facilities.h:34,
+                 from ../exception.cpp:3:
+/usr/include/c++/4.5/backward/backward_warning.h:28:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated.
+../exception.cpp: In function ‘int main()’:
+../exception.cpp:11:31: warning: comparison between signed and unsigned integer expressions
+Finished building: ../exception.cpp
+ 
+Building target: exception
+Invoking: Cross G++ Linker
+g++  -o "exception"  ./exception.o   
+Finished building target: exception
+ 
+
+**** Build Finished ****

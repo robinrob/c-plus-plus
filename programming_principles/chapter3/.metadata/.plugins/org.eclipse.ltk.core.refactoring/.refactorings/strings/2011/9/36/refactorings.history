@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;string_concat/string_concat.cpp&apos; to &apos;strings&apos;" description="Rename resource &apos;string_concat.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="string_concat.cpp" name="strings" stamp="1315426087424" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;strings/strings&apos; to &apos;strings.cpp&apos;" description="Rename resource &apos;strings&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="strings" name="strings.cpp" stamp="1315426115919" updateReferences="true"/>
+</session>

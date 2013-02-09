@@ -1,0 +1,19 @@
+/* Uncaught exception. */
+
+//#include "../../std_lib_facilities.h"
+#include <cstdlib>
+
+using namespace std;
+
+void error(string s)
+{
+	throw runtime_error(s);
+}
+
+int main()
+{
+	error("bollocks");
+	return 0;
+}
+
+

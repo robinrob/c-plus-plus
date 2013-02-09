@@ -1,0 +1,131 @@
+!SESSION 2011-09-09 20:13:58.484 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.equinox.event 2 0 2011-09-09 20:13:59.118
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.0.v20100503 [368]
+]
+Component2: Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.100.v20110502 [116]
+]  
+
+!ENTRY org.eclipse.ui 4 4 2011-09-09 20:14:14.426
+!MESSAGE Referenced part does not exist yet: org.eclipse.jdt.ui.PackageExplorer.
+
+!ENTRY org.eclipse.cdt.core 4 0 2011-09-09 20:28:40.563
+!MESSAGE Error while parsing sys/resource.h.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.expandMacro(CPreprocessor.java:1596)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:740)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:471)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:565)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:265)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:289)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.lookaheadToken(AbstractGNUSourceCodeParser.java:299)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.LA(AbstractGNUSourceCodeParser.java:322)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.LT(AbstractGNUSourceCodeParser.java:449)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.LTcatchEOF(AbstractGNUSourceCodeParser.java:457)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2649)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2614)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declSpecifierSequence_initDeclarator(AbstractGNUSourceCodeParser.java:1591)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.simpleDeclaration(GNUCPPSourceParser.java:2331)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2234)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1293)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.linkageSpecification(GNUCPPSourceParser.java:1939)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2200)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1283)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1278)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:650)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:138)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.createAST(AbstractIndexerTask.java:306)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.createAST(AbstractIndexerTask.java:265)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFilesUpFront(AbstractIndexerTask.java:690)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:364)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:127)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:85)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 20:28:41.459
+!MESSAGE Indexed 'calculator' (0 sources, 73 headers) in 1.73 sec: 1,981 declarations; 2,293 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2011-09-10 08:34:59.471 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.equinox.event 2 0 2011-09-10 08:35:01.273
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.0.v20100503 [368]
+]
+Component2: Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.100.v20110502 [116]
+]  

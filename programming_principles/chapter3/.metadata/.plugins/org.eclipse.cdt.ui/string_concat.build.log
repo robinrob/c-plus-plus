@@ -1,0 +1,20 @@
+
+**** Build of configuration Debug for project string_concat ****
+
+make all 
+Building file: ../string_concat.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"string_concat.d" -MT"string_concat.d" -o "string_concat.o" "../string_concat.cpp"
+In file included from /usr/include/c++/4.5/ext/hash_map:60:0,
+                 from ../../../std_lib_facilities.h:34,
+                 from ../string_concat.cpp:3:
+/usr/include/c++/4.5/backward/backward_warning.h:28:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated.
+Finished building: ../string_concat.cpp
+ 
+Building target: string_concat
+Invoking: Cross G++ Linker
+g++  -o "string_concat"  ./string_concat.o   
+Finished building target: string_concat
+ 
+
+**** Build Finished ****

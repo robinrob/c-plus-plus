@@ -1,0 +1,12 @@
+/* Uncaught exception. */
+
+#include "../../std_lib_facilities.h"
+
+int main()
+{
+	string;
+	error("bollocks");
+	return 0;
+}
+
+

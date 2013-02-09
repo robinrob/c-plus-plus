@@ -1,0 +1,12 @@
+/* Read and write a string. */
+
+#include <iostream>
+
+int main()
+{
+	string s;
+	cout << "Enter a string: ";
+	cin >> s;
+	cout << "The string: %d\n", s;
+	return 0;
+}

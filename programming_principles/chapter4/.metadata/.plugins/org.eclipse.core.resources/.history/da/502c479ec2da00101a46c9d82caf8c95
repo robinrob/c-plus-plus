@@ -1,0 +1,17 @@
+/*
+ * Badarea.h
+ *
+ *  Created on: 9 Sep 2011
+ *      Author: robin
+ */
+
+#ifndef BADAREA_H_
+#define BADAREA_H_
+
+class Bad_area {
+public:
+	Bad_area();
+	virtual ~Bad_area();
+};
+
+#endif /* BADAREA_H_ */

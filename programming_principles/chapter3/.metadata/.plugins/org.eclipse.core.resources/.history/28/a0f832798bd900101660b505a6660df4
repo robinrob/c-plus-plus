@@ -1,0 +1,8 @@
+/* Simple program to exercise operators. */
+
+#include "std_lib_facilities.h"
+
+int main()
+{
+	cout << "Please enter a floating-point value:\n";
+}

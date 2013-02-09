@@ -1,0 +1,24 @@
+/* String concatenation & comparison. */
+
+#include "../../std_lib_facilities.h"
+
+int main()
+{
+	cout << "Enter your first and second names:\n";
+	string first, second;
+	cin >> first;
+	cin >> second;
+	string name = first + second;
+	cout << "Hello " << name << "!\n";
+
+	if (first == second) {
+		cout << "That's the same name twice!\n";
+	}
+	else if (first < second) {
+		cout << first << " is alphabetically before " << second << endl;
+	}
+	else {
+		cout << second << " is alphabetically before " << first << endl;
+	}
+	return 0;
+}

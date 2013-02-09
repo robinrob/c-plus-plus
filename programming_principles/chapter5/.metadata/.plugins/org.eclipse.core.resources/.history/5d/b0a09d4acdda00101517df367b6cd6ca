@@ -1,0 +1,16 @@
+/* Uncaught exception. */
+
+#include "../../std_lib_facilities.h"
+
+void error()
+{
+	throw runtime_error(s);
+}
+
+int main()
+{
+	error();
+	return 0;
+}
+
+

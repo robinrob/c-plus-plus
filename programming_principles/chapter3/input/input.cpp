@@ -1,0 +1,12 @@
+/* Read and write a string. */
+
+#include "../../std_lib_facilities.h"
+
+int main()
+{
+	string s;
+	cout << "Enter a string: ";
+	cin >> s;
+	cout << "The string: " << s << endl;
+	return 0;
+}

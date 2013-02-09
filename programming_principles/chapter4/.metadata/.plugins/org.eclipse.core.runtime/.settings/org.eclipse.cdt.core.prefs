@@ -1,0 +1,4 @@
+#Fri Sep 09 08:44:28 BST 2011
+macros/workspace=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<macros/>\n
+eclipse.preferences.version=1
+errorparser.default.ids=org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.VCErrorParser;org.eclipse.cdt.core.CWDLocator

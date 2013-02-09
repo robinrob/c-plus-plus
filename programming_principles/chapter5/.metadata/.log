@@ -1,0 +1,484 @@
+!SESSION 2011-09-09 10:16:17.474 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -data /home/robin/work/programming/c++/programming_principles/chapter5 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.equinox.event 2 0 2011-09-09 10:16:18.124
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.0.v20100503 [368]
+]
+Component2: Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.100.v20110502 [116]
+]  
+
+!ENTRY org.eclipse.ui 4 4 2011-09-09 10:16:21.586
+!MESSAGE Referenced part does not exist yet: org.eclipse.jdt.ui.PackageExplorer.
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 10:16:56.915
+!MESSAGE Indexed 'area' (1 sources, 195 headers) in 6.59 sec: 17,116 declarations; 28,797 references; 0 unresolved inclusions; 1 syntax errors; 112 unresolved names (0.24%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 10:17:05.175
+!MESSAGE Indexed 'spot_error' (1 sources, 195 headers) in 4.72 sec: 17,104 declarations; 28,801 references; 0 unresolved inclusions; 1 syntax errors; 112 unresolved names (0.24%)
+
+!ENTRY org.eclipse.osgi 2 1 2011-09-09 10:17:08.252
+!MESSAGE NLS unused message: CodeAssistPreferencePage_showStub in: org.eclipse.php.internal.ui.PHPUIMessages
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 10:32:11.798
+!MESSAGE Indexed 'exception' (1 sources, 195 headers) in 3.60 sec: 17,116 declarations; 28,797 references; 0 unresolved inclusions; 1 syntax errors; 112 unresolved names (0.24%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 10:32:31.437
+!MESSAGE Indexed 'area' (1 sources, 195 headers) in 4.36 sec: 17,116 declarations; 28,797 references; 0 unresolved inclusions; 1 syntax errors; 112 unresolved names (0.24%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 10:35:38.684
+!MESSAGE Indexed 'exception' (0 sources, 77 headers) in 0.40 sec: 2,139 declarations; 2,399 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2011-09-09 10:38:54.694
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/robin/work/programming/c++/programming_principles/chapter5/exception/exception not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:928)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 10:55:06.580
+!MESSAGE Indexed 'uncaught_exceptions' (0 sources, 77 headers) in 0.39 sec: 2,139 declarations; 2,399 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 10:55:10.864
+!MESSAGE Indexed 'uncaught_exception' (0 sources, 77 headers) in 0.39 sec: 2,139 declarations; 2,399 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2011-09-09 10:56:35.939
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/robin/work/programming/c++/programming_principles/chapter5/uncaught_exception/Debug/uncaught_exception not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:928)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2011-09-09 10:57:09.747
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/robin/work/programming/c++/programming_principles/chapter5/uncaught_exception/Debug/uncaught_exception not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:928)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2011-09-09 11:08:39.904
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/robin/work/programming/c++/programming_principles/chapter5/uncaught_exception/Debug/uncaught_exception not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:928)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2011-09-09 11:09:09.315
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-09-09 11:09:09.315
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@a2954d),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@1e68ce4,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@19ffac2)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@3c9314)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@a2954d),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@1e68ce4,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@19ffac2)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@3c9314)),sourcePriority=1064961)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 11:09:09.627
+!MESSAGE Indexed 'uncaught' (0 sources, 77 headers) in 0.38 sec: 2,139 declarations; 2,399 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2011-09-09 11:10:19.434 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.equinox.event 2 0 2011-09-09 11:10:20.106
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.0.v20100503 [368]
+]
+Component2: Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.100.v20110502 [116]
+]  
+
+!ENTRY org.eclipse.cdt.core 4 0 2011-09-09 11:18:16.029
+!MESSAGE Error while parsing /home/robin/work/programming/c++/programming_principles/chapter5/uncaught_exception/uncaught_exception.cpp.:Error while parsing /usr/include/stdlib.h.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.core.dom.ast.ASTTypeUtil.appendNameForAnonymous(ASTTypeUtil.java:784)
+	at org.eclipse.cdt.core.dom.ast.ASTTypeUtil.createNameForAnonymous(ASTTypeUtil.java:753)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMASTAdapter.getAdapterForAnonymousASTBinding(PDOMASTAdapter.java:531)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:262)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.db.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:76)
+	at org.eclipse.cdt.internal.core.pdom.db.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:110)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:432)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:59)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:43)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:395)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:276)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:230)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:440)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:407)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:125)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:498)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:209)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:164)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:916)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:876)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:740)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:369)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:127)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 1 2011-09-09 11:18:22.238
+!MESSAGE NLS unused message: CodeAssistPreferencePage_showStub in: org.eclipse.php.internal.ui.PHPUIMessages
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 11:34:49.829
+!MESSAGE Indexed 'narrow_err' (0 sources, 77 headers) in 0.53 sec: 2,139 declarations; 2,399 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2011-09-09 11:34:56.056
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1603)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Resource already exists on disk: '/home/robin/work/programming/c++/programming_principles/chapter5/uncaught_e'.
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2011-09-09 11:34:56.058
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2011-09-09 11:34:56.058
+!MESSAGE Resource already exists on disk: '/home/robin/work/programming/c++/programming_principles/chapter5/uncaught_e'.
+
+!ENTRY org.eclipse.core.resources 1 4 2011-09-09 11:34:56.058
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2011-09-09 11:34:56.058
+!MESSAGE Resource already exists on disk: '/home/robin/work/programming/c++/programming_principles/chapter5/uncaught_e'.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2011-09-09 11:35:14.230
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1603)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Resource already exists on disk: '/home/robin/work/programming/c++/programming_principles/chapter5/uncaught_e'.
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2011-09-09 11:35:14.230
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2011-09-09 11:35:14.230
+!MESSAGE Resource already exists on disk: '/home/robin/work/programming/c++/programming_principles/chapter5/uncaught_e'.
+
+!ENTRY org.eclipse.core.resources 1 4 2011-09-09 11:35:14.231
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2011-09-09 11:35:14.231
+!MESSAGE Resource already exists on disk: '/home/robin/work/programming/c++/programming_principles/chapter5/uncaught_e'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 11:35:30.446
+!MESSAGE Indexed 'uncaught_' (0 sources, 77 headers) in 0.50 sec: 2,139 declarations; 2,399 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2011-09-09 11:35:39.307
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1603)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Resource already exists on disk: '/home/robin/work/programming/c++/programming_principles/chapter5/uncaught_e'.
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2011-09-09 11:35:39.308
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2011-09-09 11:35:39.308
+!MESSAGE Resource already exists on disk: '/home/robin/work/programming/c++/programming_principles/chapter5/uncaught_e'.
+
+!ENTRY org.eclipse.core.resources 1 4 2011-09-09 11:35:39.308
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2011-09-09 11:35:39.308
+!MESSAGE Resource already exists on disk: '/home/robin/work/programming/c++/programming_principles/chapter5/uncaught_e'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 11:36:10.207
+!MESSAGE Indexed 'uncaught_e' (1 sources, 195 headers) in 4.41 sec: 17,103 declarations; 28,781 references; 0 unresolved inclusions; 1 syntax errors; 112 unresolved names (0.24%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2011-09-09 11:36:25.774
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/robin/work/programming/c++/programming_principles/chapter5/uncaught_e/Debug/uncaught_exception not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:928)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 11:36:58.151
+!MESSAGE Indexed 'narrowing_e' (0 sources, 77 headers) in 0.44 sec: 2,139 declarations; 2,399 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2011-09-09 15:34:46.699 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.equinox.event 2 0 2011-09-09 15:34:48.725
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.0.v20100503 [368]
+]
+Component2: Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.100.v20110502 [116]
+]  
+!SESSION 2011-09-09 19:08:44.535 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.equinox.event 2 0 2011-09-09 19:08:45.199
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.0.v20100503 [368]
+]
+Component2: Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.100.v20110502 [116]
+]  
+
+!ENTRY org.eclipse.osgi 2 1 2011-09-09 19:09:32.094
+!MESSAGE NLS unused message: CodeAssistPreferencePage_showStub in: org.eclipse.php.internal.ui.PHPUIMessages
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 19:16:49.100
+!MESSAGE Indexed 'read_temp' (0 sources, 77 headers) in 1.06 sec: 2,139 declarations; 2,399 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 19:17:06.651
+!MESSAGE Indexed 'read_temp' (0 sources, 77 headers) in 0.57 sec: 2,139 declarations; 2,399 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2011-09-09 19:19:32.280
+!MESSAGE Error while parsing /read_temp/read_temp.cpp.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander$TokenSource.fetchFirst(MacroExpander.java:90)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.parseArguments(MacroExpander.java:456)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.expandOne(MacroExpander.java:252)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.expand(MacroExpander.java:169)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.expandMacro(CPreprocessor.java:1616)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:740)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:471)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:565)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:265)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:289)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.lookaheadToken(AbstractGNUSourceCodeParser.java:299)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.LA(AbstractGNUSourceCodeParser.java:322)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.LT(AbstractGNUSourceCodeParser.java:449)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.LTcatchEOF(AbstractGNUSourceCodeParser.java:457)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.__attribute_decl_seq(AbstractGNUSourceCodeParser.java:2328)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.functionDeclarator(GNUCPPSourceParser.java:3860)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declarator(GNUCPPSourceParser.java:3743)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declarator(GNUCPPSourceParser.java:3562)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.initDeclarator(GNUCPPSourceParser.java:3278)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.initDeclarator(GNUCPPSourceParser.java:3117)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declSpecifierSequence_initDeclarator(AbstractGNUSourceCodeParser.java:1615)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.simpleDeclaration(GNUCPPSourceParser.java:2331)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2234)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1293)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.linkageSpecification(GNUCPPSourceParser.java:1939)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2200)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1283)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1278)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:650)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:138)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.createAST(AbstractIndexerTask.java:306)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.createAST(AbstractIndexerTask.java:279)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:873)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:740)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:369)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:127)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 19:27:20.719
+!MESSAGE Indexed 'read_temp2' (1 sources, 195 headers) in 3.91 sec: 17,108 declarations; 28,819 references; 0 unresolved inclusions; 1 syntax errors; 112 unresolved names (0.24%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-09-09 19:28:25.709
+!MESSAGE Indexed 'read_temp' (0 sources, 77 headers) in 0.44 sec: 2,139 declarations; 2,399 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2011-09-09 19:29:54.829
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-09-09 19:29:54.829
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@94c9f2),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@1896415,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@1c4f6f6)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8ef177)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@94c9f2),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@1896415,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@1c4f6f6)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8ef177)),sourcePriority=1064961)
